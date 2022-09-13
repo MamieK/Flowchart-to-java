@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class flowchart {
+    public static void main(String[] args) {
+        System.out.println("hello my name is Susan from Space");
+        System.out.println("What is your name?");
+        String name;
+        Scanner sc = new Scanner (System.in);
+        
+        name = sc.nextLine();
+        System.out.println("Hello" + "  " + name + "  " + " I am from the year 2210 and I am 20 years old");
+        String age;
+       
+       age = sc.nextLine();
+        String future_age =(age + (2210-2020));
+        System.out.println("Wow, by 2210 you will be  " + "  " +future_age + "  " + "," + "  " +"that is really old!");
+        System.out.println("What music are you in to?");
+
+        String music;
+        music = sc.nextLine();
+        System.out.println("I have not heard of " + "  " + music);
+
+    }
+}
